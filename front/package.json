@@ -1,0 +1,17 @@
+{
+  "name": "transit-prueba",
+  "version": "1.0.0",
+  "description": "Prueba para transit",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js"
+  },
+  "dependencies": {
+    "bluebird": "^3.5.3",
+    "body-parser": "^1.18.3",
+    "express": "^4.16.4",
+    "sqlite3": "^4.0.4"
+  },
+  "author": "enderdba",
+  "license": "ISC"
+}
