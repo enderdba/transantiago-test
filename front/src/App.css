@@ -1,0 +1,67 @@
+.routeList{
+  height: 50vh;
+  overflow: scroll;
+}
+
+.row{
+  margin-bottom: 0;
+}
+
+.routeList{
+  position:relative;
+}
+
+.tabs{
+  overflow: hidden;
+}
+
+.faved .secondary-content i{
+  color:#f9cf02 !important;
+}
+
+.secondary-content:hover{
+  cursor: pointer !important;
+}
+
+.tabs .tab{
+  width:49.9%;
+}
+
+.isLoading{
+  overflow:hidden;
+}
+
+.routeList .loading{
+  position:absolute;
+  width: 100%;
+  height: 100%;
+  background-color:rgba(255, 255, 255, 0.959);
+}
+
+.routeList li{
+  cursor: pointer;
+  -webkit-transition: background-color 0.5s; /* Safari */
+  transition: background-color 0.5s;
+}
+
+.routeList li .material-icons{
+  color: gray ;
+}
+
+.routeList li.active{
+  color: black !important;
+  background-color: lightgray !important;
+}
+
+.routeList li.active:hover{
+  cursor:unset;
+}
+
+.routeList li:hover{
+  background-color: rgb(235, 235, 235);
+  
+}
+
+.mapFeature{
+  width:100%;
+}
