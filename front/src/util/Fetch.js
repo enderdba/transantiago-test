@@ -12,11 +12,11 @@ export default class Fetch {
         return new Promise((ok, error) => {
             axios.get(this.url + `/allRoutes`)
                 .then(function (response) {
-                    console.log(response);
+                    //console.log(response);
                     ok(response.data);
                 })
                 .catch(function (err) {
-                    console.log(error);
+                    console.error(error);
                     error(error);
                 })
         })
@@ -28,7 +28,7 @@ export default class Fetch {
             axios.get(this.url + `/getTrip/${routeId}`)
                 .then(function (response) {
                     ok(response.data);
-                    console.log(response);
+                   // console.log(response);
                 })
                 .catch(function (err) {
                     console.error(err);
@@ -42,7 +42,7 @@ export default class Fetch {
         return new Promise((ok, error) => {
             axios.get(this.url + `/getPath/${shapeId}`)
                 .then(function (response) {
-                    console.log(response);
+                    //console.log(response);
                     ok(response.data);
                 })
                 .catch(function (err) {
