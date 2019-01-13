@@ -1,6 +1,6 @@
 ## Prueba Ender Bohórquez para Transit
 
-Se utilizó como base pare el front Create React App (como boilerplate).
+Se utilizó como base para el front Create React App (como boilerplate).
 
 ### Cómo ejecutar el programa? 
 
