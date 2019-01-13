@@ -69,10 +69,6 @@ router.get("/getPath/:path", function (req, res) {
     });
 });
 
-// more routes for our API will happen here
-
-
-
 // REGISTER OUR ROUTES -------------------------------
 // all of our routes will be prefixed with /api
 app.use('/api', router);
