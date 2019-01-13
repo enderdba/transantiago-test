@@ -32,11 +32,11 @@ Debe cambiar el API KEY del Google Map para que funcione correctamente dentro de
 
 ### Algunas dependencias
 
-Se utilizo CORS para las Cross Origins Requests (incluso en localhost puede llegar a suceder) en el server de Node.
-Se utilizó un boilerplate para configurar un servidor de Node de manera rápida y sencilla.
-Se utilizó react-materialize como dependencia para el uso del framework de CSS y algunos de sus útiles componentes.
-Se utilizó una versión especial de react-google-maps que permitía la carga correcta del mapa sin mayor problema alguno.
-Se utilizó axios para la conexión con el backend.
+Se utilizo CORS para las Cross Origins Requests (incluso en localhost puede llegar a suceder) en el server de Node.<br>
+Se utilizó un boilerplate para configurar un servidor de Node de manera rápida y sencilla.<br>
+Se utilizó react-materialize como dependencia para el uso del framework de CSS y algunos de sus útiles componentes.<br>
+Se utilizó una versión especial de react-google-maps que permitía la carga correcta del mapa sin mayor problema alguno.<br>
+Se utilizó axios para la conexión con el backend.<br>
 <b>NOTA:<b> En el caso de que el backend esté configurado en otro puerto, cambiarlo en la linea 10 de App.js
 
 ```javascript
