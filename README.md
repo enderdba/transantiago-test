@@ -22,7 +22,7 @@ npm install
 npm run start
 ```
 
-###IMPORTANTE
+### IMPORTANTE
     
 Debe cambiar el API KEY del Google Map para que funcione correctamente dentro del componente App.js, en la linea 22:
 
